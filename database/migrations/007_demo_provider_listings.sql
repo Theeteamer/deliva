@@ -1,0 +1,2 @@
+ALTER TABLE providers
+    ADD COLUMN is_demo TINYINT(1) NOT NULL DEFAULT 0 AFTER owner_name;
